@@ -38,3 +38,5 @@ Benefits <- c("a potential job opportunity at a local institution",
 
 data<- crossing(var1 = Type, var2 = Issue_areas, var3 = age, var4 = Expectations, var5 = Benefits)
 data
+
+write.csv(data, "conjoint1.csv")
