@@ -16,9 +16,9 @@ Issue_areas<- c("environment and climate change",
           
 )
 
-age <- c(1, 
-           7, 
-           25
+age <- c("1 year", 
+           "7 years", 
+           "25 years"
 )
 
 Expectations <- c("contribute ideas",
