@@ -38,7 +38,7 @@ Type2<- c("local association",
 
 
 
-Issue_area2s<- c("environment and climate change",
+Issue_areas2<- c("environment and climate change",
                 "unemployment and poverty", 
                 "political and cultural rights" 
                 
@@ -64,9 +64,18 @@ Benefits <- c("a potential job opportunity at a local institution",
 
 
 
-data<- crossing(var1 = Type, var2 = Issue_areas, var3 = age, var4 = Expectations, var5 = Benefits,
-                var6 = Type2, var7 = Issue_areas2, var8 = age2, var9 = Expectations2, var10 = Benefits2
-)
+# data<- crossing(var1 = Type, var2 = Issue_areas, var3 = age, var4 = Expectations, var5 = Benefits,
+#                 var6 = Type2, var7 = Issue_areas2, var8 = age2, var9 = Expectations2, var10 = Benefits2
+# )
+# data
+
+data<- crossing(var1 = Type, var2 = Issue_areas, var3 = age, var4 = Expectations, var5 = Benefits)
+              
 data
+
+# data<- crossing(var1 = Type, var2 = Issue_areas, var3 = age, var4 = Expectations, var5 = Benefits,
+#                 var6 = Type2
+# )
+# data
 
 write.csv(data, "conjoint_lebanon.csv")

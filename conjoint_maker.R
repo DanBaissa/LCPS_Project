@@ -5,7 +5,7 @@ library(tidyr)
 
 Type<- c("local association", 
          "local branch of a political party", 
-         "Tunisia representation of an international non-governmental organization"
+         "Lebanese delegation of an international non-governmental organization"
 )
 
 
